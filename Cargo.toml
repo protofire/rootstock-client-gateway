@@ -31,5 +31,5 @@ semver = "1.0.17"
 serde = { version = "1.0.159", features = ["derive"] }
 serde_json = { version = "1.0.96", features = ["raw_value"] }
 serde_repr = "0.1.12"
-thiserror = "1.0.40"
+thiserror = "1.0.47"
 tokio = "1.16.1"
