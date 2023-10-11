@@ -23,7 +23,10 @@
     "FEATURE_FLAG_NESTED_DECODING": "true",
     "FEATURE_FLAG_BALANCES_RATE_IMPLEMENTATION": "false",
     "CONFIG_SERVICE_URI": "https://safe-config.sovryn.app",
-    "REDIS_URI": "redis://gnosis.axfxfv.ng.0001.use2.cache.amazonaws.com:6379"
+    "REDIS_URI": "redis://gnosis.axfxfv.ng.0001.use2.cache.amazonaws.com:6379",
+    "REDIS_HOST_MAINNET": "gnosis.axfxfv.ng.0001.use2.cache.amazonaws.com",
+    "REDIS_PORT_MAINNET": "6379",
+    "REDIS_URI_MAINNET": "redis://${REDIS_HOST_MAINNET}:${REDIS_PORT_MAINNET}"
   },
   "DEV_ENV_VARS": {
   },
