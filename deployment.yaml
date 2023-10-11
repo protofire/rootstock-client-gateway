@@ -19,7 +19,7 @@ spec:
         app: rootstock-client-gateway
     spec:
       containers:
-        - image: sovryn/safe-config
+        - image: sovryn/rootstock-client-gateway
           imagePullPolicy: Always
           envFrom:
           - secretRef:
