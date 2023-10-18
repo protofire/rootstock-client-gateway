@@ -44,7 +44,8 @@ spec:
           resources: {}
           volumeMounts:
             - name: nginxconf
-              mountPath: /etc/nginx/templates
+              mountPath: /etc/nginx/nginx.conf
+              subPath: nginx.conf
             - mountPath: /nginx
               name: nginx-shared
       restartPolicy: Always
